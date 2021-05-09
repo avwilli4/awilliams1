@@ -1,0 +1,218 @@
+body{
+    width: 955px;
+    margin: auto;
+}
+p{
+ text-align:  left;
+ font-size: small;
+}
+
+#articleHeaders{
+  text-align: left;
+  margin-bottom: 0px;
+}
+#button2{
+ background-color: rgb(0, 0, 0);
+ height: 50px;
+ width: 200px;
+ 
+}
+#groupPhotos{
+  height: 50px;
+  width: 50px;
+  float:  left;
+  margin: 5px;
+}
+#sidePhoto{
+  height: 70px;
+  width: 180px;
+}
+#sidePhoto2{
+ height: 160px;
+ width: 180px;
+}
+section{
+  overflow: auto;
+  float: left;
+  width: 995px;
+  padding: 0px 10px;
+  margin: auto;
+  color: rgb(7, 7, 7);
+}
+#footerSection{
+ width: 180px;
+}
+#pencilImage{
+ height: 20px;
+ width: 20px;
+ border: solid 1px;
+ padding: 3px;
+ position: absolute;
+ top: 885px;
+ left: 155px;
+}
+#speedometer{
+ height: 35px;
+ width: 35px;
+ position: absolute;
+ top:  880px;
+ left: 768px;
+}
+#lineGraph{
+  height: 50px;
+ width: 50px;
+ padding: 3px;
+ position: absolute;
+ left: 440px;
+ top: 870px;
+}
+iframe{
+ width: 350px;
+ height: 350px;
+ text-align: center;
+ margin: auto;
+}
+video{
+  position: absolute;
+  top: 1225px;
+  left: 400px;
+}
+article{
+  overflow: auto;
+  float: left;
+  text-align: center;
+  width: 250px;
+  padding: 20px 20px;
+  margin: 10px;
+}
+#article2 {
+  overflow: auto;
+  float: left;
+  text-align: left;
+  color: #FFF;
+  width: 200px;
+  padding: 10px 10px;
+  margin: 10px;
+  background-color: #404040;
+}
+#footerP{
+  margin: 0px;
+}
+#logo2{
+ padding-top: 0px;
+ height: 60px;
+ width: 200px;
+}
+#navBarLogo{
+ width: 180px;
+ padding-left: 30px;
+}
+#topPicture{
+  width: 995px;
+  height: 700px;
+  margin-bottom: 20px;
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered2{
+  overflow: auto;
+  float: left;
+  width: 220px;
+  padding: 10px 10px;
+  margin: 10px;
+  z-index: 2
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 23px;
+}
+.belowCentered{
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-54%, -50%);
+}
+#headers2{
+ text-align: center;
+ font-size: 20px;
+ color: #808080;
+ margin-top: 10px;
+}
+#header3{
+ text-align: center;
+ font-size: 50px;
+ margin: auto ;
+}
+button{
+  background-color: #5FCBFA;
+  margin-top: 20px;
+}
+#navBarButton{
+ margin-top: 0px;
+ border: none;
+}
+nav {
+ overflow: hidden;
+ position: fixed;
+ top: 0;
+ float: right;
+ width: 995px;
+ height: 45px;
+ text-align: center;
+ background-color: #FFF;
+ z-index: 1;
+}
+nav img{
+ float: left;
+}
+nav ul {
+ display: inline-block; /*Comment:  this tells the browser to display the ul element inline (side by side), but it allows the list to retain it's block-level characteristics - more on that later.*/
+ margin: 0px; /*Comment: zero pixels of space in the margin (the space around an element.*/
+ padding: 0px; /*Comment: zero pixels of space between the element's border and its content*/
+}
+
+/*This selector is targeting the <li> elements that are within the <nav> element*/
+
+nav li {
+ float: right;
+ padding-top: 12px;
+ padding-right: 10px;
+ color: #000;
+ list-style-type: none;  /*Comment:  this tells the browser to remove the bullet points that would normally be displayed in an unordered list.*/
+}
+a{
+ color: #000
+}
+nav a:hover {
+  color: #000;
+  background-color: #5FCBFA; 
+}
+label {
+  background-color: #5FCBFA;
+  padding: 1px;
+  margin: 0px;
+}
+#footer1 {
+  background-color: #333;
+  height: 600px;
+  width: 995px;
+  z-index: -2;
+}
+h6{
+ padding-bottom: 0px;
+}
+h5{
+ text-align: left;
+}
+#backgroundVideo{
+ width: 995px;
+ height: 400px;
+}
